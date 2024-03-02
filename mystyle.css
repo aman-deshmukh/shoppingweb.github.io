@@ -1,0 +1,81 @@
+.jumbotron {
+		padding: 12rem 4rem;
+		display: flex;
+		background-color: #2fa3de;
+		color:white;
+	}
+
+	.jumbotron img{
+		width: 400px;
+	}
+
+	.bg-custom{
+        background-color: #2fa3de;
+	}
+
+	.navbar-brand{
+		color:white;
+	}
+
+	.nav-link{
+        color: white;
+	}
+
+	.navbar-text a{
+		color: white;
+	}
+
+ #second {
+	/*  background-color: #2fa3de; */
+	user-select: none;
+} 
+
+#second p{
+	text:white;
+} 
+
+#second img{
+	width: 500px;
+}
+
+
+                         /* product section */
+
+ #product #product_icon {
+	width: 40px;
+	
+}
+
+#product #product_icon img{
+	width: 30px;
+	background-color:#2fa3de;
+	margin:5px 2px;
+	padding:5px;
+}
+
+#product_icon {
+     position: absolute;
+	 top:25px;
+	 opacity:0;
+	 transition:opacity 0.3s;
+}
+
+#product .card:hover #product_icon {
+	opacity:1;
+}
+
+#addtocart{
+	width: 20px;
+	float: right;
+}
+
+/* footer */
+
+.footer{
+	background-color: #2fa3de;
+	margin-top: 100px;
+}
+
+.social_icons{
+	float: right;
+}
